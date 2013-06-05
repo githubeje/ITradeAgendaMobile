@@ -1,0 +1,74 @@
+/* CSS Document redefine label de error */
+label.error { 
+	float:inherit; 
+	color: red; 
+	padding-top: .5em; 
+	vertical-align: top; 
+	font-weight:bold
+}
+
+.center {
+	margin:auto;
+	width:70%;
+}
+
+#divparam {
+	margin:0% 0% 0% 0%;
+	border:2px solid #a1a1a1;
+	background:#eeeeee;
+	padding:5px 5px;
+	border-radius:5px;
+	moz-border-radius:5px;
+}
+
+#divparam #barra #be {
+	padding:5px 5px;
+}
+
+#divlogin {
+	margin:3% 12% 5% 12%;
+	border:1px solid #F3F3F3;
+	padding:1px 5px;
+	background:#dddddd;
+	border-radius:10px;-
+	moz-border-radius:10px;
+	background-image: -ms-linear-gradient(bottom, #FFFCFF 0%, #B3B0B8 100%);/* IE10 Consumer Preview */ 
+	background-image: -moz-linear-gradient(bottom, #FFFCFF 0%, #B3B0B8 100%);/* Mozilla Firefox */ 
+	background-image: -o-linear-gradient(bottom, #FFFCFF 0%, #B3B0B8 100%);/* Opera */  
+	background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFCFF), color-stop(1, #B3B0B8));/* Webkit (Safari/Chrome 10) */
+	background-image: -webkit-linear-gradient(bottom, #FFFCFF 0%, #B3B0B8 100%);/* Webkit (Chrome 11+) */ 
+	background-image: linear-gradient(to top, #FFFCFF 0%, #B3B0B8 100%); /* W3C Markup, IE10 Release Preview */ 
+}
+.inline-form { }
+			
+.inline-form .wrapper {
+	float: left;
+	width: 100%;
+}
+			
+.inline-form .wrapper .content {
+	margin: 0 75px 0 290px;
+}
+			
+.inline-form .left {
+	float: left;
+	width: 92px;
+	margin-left: -100%;
+}
+			
+.inline-form .text {
+  padding-top: 0.7em;
+  padding-bottom: 0.7em;
+  display: block;
+  font-size: 17px;
+}
+			
+.inline-form .right {
+	float: left;
+	width: 75px;
+	margin-left: -75px; 
+}
+			
+.inline-form .footer{
+	clear: left;
+}
